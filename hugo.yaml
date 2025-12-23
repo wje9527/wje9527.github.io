@@ -1,0 +1,23 @@
+baseURL: "https://wje9527.github.io/"
+title: "我的技术博客"
+languageCode: "zh-cn"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  env: production
+  title: "我的技术博客"
+  description: "记录 15-445, 6.824 学习心得"
+  author: "Me"
+  defaultTheme: auto
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
